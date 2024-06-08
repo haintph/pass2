@@ -1,0 +1,20 @@
+{
+    "name": "hai/ns-psr4",
+    "autoload": {
+        "psr-4": {
+            "Hai\\NsPsr4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "haintph",
+            "email": "haintph@fpt.edu.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.13",
+        "bramus/router": "~1.6",
+        "doctrine/dbal": "^4.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

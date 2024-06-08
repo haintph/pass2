@@ -1,0 +1,7 @@
+<?php
+//create router instance 
+$router = new \Bramus\Router\Router();
+require_once __DIR__ . '/admin.php';
+require_once __DIR__ . '/client.php';
+//run it
+$router->run();
